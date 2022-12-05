@@ -1,3 +1,6 @@
-salutation = "Hello World :)"
+print("Here's a happy box!")
 
-print(salutation)
+print("-------")
+print("| . . |")
+print("|  v  |")
+print("-------")
