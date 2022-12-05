@@ -1,6 +1,10 @@
-print("Here's a happy box!")
+character_name = "Robert"
+character_age = 30
+is_male = True
 
-print("-------")
-print("| . . |")
-print("|  v  |")
-print("-------")
+print("Our boy is named " + character_name + ",\n"
++ character_name + " have " + str(character_age) + " years!")
+
+character_name = "Angelo"
+
+print("Say hi to " + character_name + "!")
