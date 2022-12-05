@@ -1,10 +1,25 @@
-character_name = "Robert"
-character_age = 30
-is_male = True
+phrase = "This \"word\" is quoted. Amazing!"
+separation = "______________________________"
 
-print("Our boy is named " + character_name + ",\n"
-+ character_name + " have " + str(character_age) + " years!")
+print(phrase)
+print(phrase.isupper())
+print(len(phrase))
+print(separation)
 
-character_name = "Angelo"
+phrase = phrase.upper()
 
-print("Say hi to " + character_name + "!")
+print(phrase.index("AM"))
+print(phrase.isupper())
+print(separation)
+
+phrase = phrase.lower()
+
+print(phrase[6])
+print(phrase.isupper())
+print(separation)
+
+phrase = phrase.replace("amazing", "cool")
+
+print(phrase)
+print(phrase.islower())
+print(separation)
