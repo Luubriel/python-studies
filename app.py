@@ -1,25 +1,18 @@
-phrase = "This \"word\" is quoted. Amazing!"
-separation = "______________________________"
+from math import *
 
-print(phrase)
-print(phrase.isupper())
-print(len(phrase))
-print(separation)
+num = 10
 
-phrase = phrase.upper()
+num_2 = 23.45
 
-print(phrase.index("AM"))
-print(phrase.isupper())
-print(separation)
+print(str(num) + " MOD 3 = " + str(num % 3))
 
-phrase = phrase.lower()
+print("ABSOLUTE VALUE of " + str(num) + " = " + str(abs(num)))
 
-print(phrase[6])
-print(phrase.isupper())
-print(separation)
+print(str(num) + " to the power of 3 = " + str(pow(num, 3)))
 
-phrase = phrase.replace("amazing", "cool")
+print(str(max(num, 23)) + "\n" + str(min(5, num)))
 
-print(phrase)
-print(phrase.islower())
-print(separation)
+print(floor(num_2))
+print(ceil(num_2))
+
+print("The square root of 25 is " + str(sqrt(25)))
