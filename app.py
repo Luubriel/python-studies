@@ -1,4 +1,5 @@
-name = input("Enter your name: ")
-age = input("Now, your age: ")
+num1 = input("Enter first number: ")
+num2 = input("Now, the second: ")
+result = float(num1) + float(num2)
 
-print("Hi " + name + "! You're " + age + " years old.")
+print("The sum of those two numbers is:\n" + str(result))
